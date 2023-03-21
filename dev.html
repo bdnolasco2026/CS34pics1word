@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Game</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+    html {
+        box-sizing: border-box;
+        }
+        
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+    body {
+        background-image: url("https://img.freepik.com/free-photo/brick-wall-background_53876-88654.jpg?");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    h1, h2 {
+        font-family: 'Inter', sans-serif;
+    }
+
+    h1 {
+        font-size: 100px;
+        text-align: center;
+        color: white;
+    }
+
+    .role {
+        color: grey;
+    }
+    
+    .devcard {
+        float: left;
+        width: 80%;
+        margin: 3%;
+        padding: 0 8px;
+        background-color: rgb(241, 236, 236);
+        display: flex;
+    }
+    
+    @media screen and (max-width: 500px) {
+        .devcard {
+        width: 100%;
+        display: block;
+     }
+    }
+    
+    .inner {
+     box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    }
+    
+    .container {
+    padding: 0 16px;
+    align-items: center;
+    }
+    
+    .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+    p {
+      font-family: 'Inter', sans-serif;
+    }
+
+</style>
+</head>
+<body>
+
+<h2><a href="gameover.html">BACK</a></h2>
+<h1>Meet The Developers ♡</h1>
+
+<br>
+
+<div class="row">
+  <div class="devcard">
+    <div class="inner">
+      <img src="melod.jpg" alt="Melody" style="width:20%; border-radius: 50%; margin:5px; text-align: center;">
+      <div class="container">
+        <h2>Hannah Melody B. Custodio</h2>
+        <p class="role">Coder & Designer</p>
+        <p>A Grade 9 Student from Balingkilat passionate in crocheting, coding, writing, solving math problems, Biology, Physics, Chemistry, and Statistics. I love creating crochet stuffed toy during my free time. I also love playing badminton, volleyball, and basketball. </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="devcard">
+    <div class="inner">
+    <img src="jad.jpg" alt="Jaeda" style="width:20%; border-radius: 50%; margin:5px; text-align: center;">
+      <div class="container">
+        <h2>Jaeda Marthena S. Iral</h2>
+        <p class="role">Coder</p>
+        <p>A Grade 9 Student from Balingkilat passionate in cooking, arts, Chemistry, Physics, Math, and K-pop. During my free time, I watch BTS and Blackpink. Just like Hannah, I like doing crochet stuffed toys and clothes.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="devcard">
+    <div class="inner">
+  <img src="bea.jpg" alt="Bea" style="width:20%; border-radius: 50%; margin:5px; text-align: center;">
+      <div class="container">
+        <h2>Bea Alexa D. Nolasco</h2>
+        <p class="role">Coder</p>
+        <p>A Grade 9 Student from Balingkilat passionate in playing Candy Crush, Y8 games, sudoku, Biology, Social Sciences, and Filipino. I like reading El Fili Book mainly because it is a requirement in the Filipino Subject.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
